@@ -1,0 +1,221 @@
+body{
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Play;
+}
+button:focus{
+  outline: none;
+}
+#main-header{
+  padding-top: 0px;
+  height: 60px;
+  width: 100%;
+}
+#header-buttons{
+  width: 100%;
+  padding: 0px;
+}
+.header-button{
+  padding: 0px;
+  background-color:rgb(255, 95, 95);
+  width: 50%;
+  color: white;
+  border-color: white;
+  border-style: none;
+  border-width: 1px;
+  border-top: none;
+  border-bottom: none;
+}
+#last-button{
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+}
+#header-grid{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  position: relative;
+  align-items: center;
+}
+#routine-title{
+  padding-top: 8px;
+  font-size: 34px;
+  text-align: center;
+  vertical-align: center;
+}
+#last-routine, #next-routine{
+  border-style: none;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
+#last-routine:hover, #next-routine:hover{
+  border-style: solid;
+  border-color: white;
+}
+#last-routine{
+  vertical-align: center;
+  width: 30px;
+  height: 30px;
+}
+#next-routine{
+  width: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 6px;
+  height: 30px;
+}
+#sub-header{
+  padding-top: 12px;
+  width: 428px;
+  padding-bottom: 6px;
+}
+#days-button-grid{
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.day-button{
+  border-style:none;
+  width: 40px;
+  height: 40px;
+}
+.day-button:hover{
+  border-style: solid;
+  border-width: 1px;
+}
+.day-button:hover{
+  background-color: rgb(255, 146, 146);
+}
+#select-day{
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 95, 95);
+}
+#workout-title-box{
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+  font-size: 26px;
+  border-radius: 10px;
+}
+#workout-title{
+  width: 100%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  font-size: 26px;
+  background-color: rgb(25, 25, 25);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 95, 95);
+  border-radius: 10px;
+}
+.lift-container{
+  width: 428px;
+  padding-top: 20px;
+  font-size: 20px;
+  position: relative;
+}
+.lift, .sets, .x, .lower-rep, .rep-div, .upper-rep{
+  display: inline-block;
+  color: white;
+  background-color: rgb(25, 25, 25);
+  border-style: none;
+  padding: 0px;
+}
+.expand-button, .close-button{
+  display: inline-block; 
+  font-size: 22px;
+  color: white;
+  background-color:rgb(25, 25, 25);
+  border-style: none;
+}
+.expand-button{
+  position: absolute;
+  right: 0px;
+  bottom: -2px;
+  border-style: none;
+}
+.close-button{
+  position: absolute;
+  right: 2px;
+  top: 16px;
+  border-style: none;
+}
+.expand-button:hover, .close-button:hover{
+  font-size: 26px;
+}
+.expand-button:focus, .close-button:focus{
+  outline: none;
+}
+.expand-container{
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.sets-grid{
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.sets-grid-item{
+  align-items: center;
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(120, 120, 120);
+  border-width: 1px;
+  height: 40px;
+  padding-top: 6px;
+}
+.image{
+  margin-left: 10px;
+  width: 50%;
+}
+.expand-text{
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.save{
+  width: 100%;
+  margin-top: 32px;
+  font-size: 16px;
+  background-color:rgb(255, 95, 95);
+  color: white;
+  border-style: none;
+  font-family: Play;
+}
+.btn, .btn:hover{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-size: 20px;
+  padding: 0px;
+}
+.dropdown-menu{
+  background-color: rgb(25, 25, 25);
+}
+.dropdown-item{
+  color: white;
+}
+.dropdown-item:hover{
+  background-color: rgb(62, 62, 62);
+  color: white;
+}
+
+
+

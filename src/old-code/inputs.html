@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="test-styles/inputs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input test</title>
+  </head>
+  <body>
+    <div>
+    <div class="form-container">
+      Which days would you like to lift?
+      <div id="days-button-grid">
+        <Button class="btn btn-outline-danger day-button select-button">M</Button>
+        <Button class="btn btn-outline-danger day-button">T</Button>
+        <Button class="btn btn-outline-danger day-button">W</Button>
+        <Button class="btn btn-outline-danger day-button">Th</Button>
+        <Button class="btn btn-outline-danger day-button">F</Button>
+        <Button class="btn btn-outline-danger day-button">S</Button>
+        <Button class="btn btn-outline-danger day-button">Su</Button>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div id="exp-text">
+        Your experience level: 4 years
+      </div>
+      <form>
+      <input type="range" class="form-range" >
+      </form>
+    </div>
+
+    <div class="form-container">
+      <div id="style-text">
+        Your training goal: neutral
+      </div>
+      <form>
+      <input type="range" class="form-range">
+      </form>
+    </div>
+
+    <div class="form-container">
+      <div id="sets-text">
+        Sets per workout: 
+      </div>
+      <button class="btn btn-outline-danger day-button">1</button>
+      <button class="btn btn-outline-danger day-button">2</button>
+      <button class="btn btn-outline-danger day-button" id="select-button">3</button>
+      <button class="btn btn-outline-danger day-button">4</button>
+    </div>
+
+    <div class="form-container">
+      Emphasis groups:  
+      <div class="sub-header"> Double click for extra emphasis </div>
+      <div class="muscle-button-container">
+        <button class="muscle-button">Chest</button>
+        <button class="muscle-button">Back</button>
+        <button class="muscle-button">Legs</button>
+        <button class="muscle-button">Biceps</button>
+        <button class="muscle-button">Triceps</button>
+        <button  class="selected-muscle-button" class="muscle-button">Front Deltoids</button>
+        <button class="muscle-button">Side Deltoids</button>
+        <button class="muscle-button">Rear Deltoids</button>
+        <button class="muscle-button">Traps</button>
+        <button class="muscle-button">Calves</button>
+      </div>
+    </div>
+
+    <div class="form-container">
+      Neglected groups: 
+      <div class="sub-header"> Double click for extra neglect </div> 
+      <div class="muscle-button-container">
+        <button class="muscle-button">Chest</button>
+        <button class="muscle-button">Back</button>
+        <button class="muscle-button">Legs</button>
+        <button class="muscle-button">Biceps</button>
+        <button class="muscle-button">Triceps</button>
+        <button  class="selected-muscle-button" class="muscle-button">Front Deltoids</button>
+        <button class="muscle-button">Side Deltoids</button>
+        <button class="muscle-button">Rear Deltoids</button>
+        <button class="muscle-button">Traps</button>
+        <button class="muscle-button">Calves</button>
+      </div>
+    </div>
+
+    <div class="form-container"> 
+      Major muscle group bias: 
+
+      <input type="range" class="form-range">
+      <div class="bias-labels"> 
+        <div class="left-bias-label">Lower Chest</div>
+        <div class="right-bias-label">Upper Chest</div>
+      </div>
+
+      <input type="range" class="form-range">
+      <div class="bias-labels"> 
+        <div class="left-bias-label">Lats</div>
+        <div class="right-bias-label">Upper Back</div>
+      </div>
+      
+      <input type="range" class="form-range">
+      <div class="bias-labels"> 
+        <div class="left-bias-label">Hamstrings</div>
+        <div class="right-bias-label">Quads</div>
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </div>
+  </body>
+</html>

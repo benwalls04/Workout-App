@@ -1,0 +1,139 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Play;
+}
+.body{
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Play;
+}
+button:focus{
+  outline: none;
+}
+.form-container{
+  width: 428px;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+#days-button-grid{
+  width: 100%;
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.day-button{
+  color: white;
+  border-style:none;
+  width: 40px;
+  height: 40px;
+}
+.day-button:hover{
+  border-style: solid;
+  border-width: 1px;
+}
+.day-button:hover{
+  background-color: rgb(255, 146, 146);
+}
+#select-button{
+  border-style: none;
+  background-color: rgb(255, 95, 95);
+  color: white;
+}
+.slider{
+  width: 100%;
+  accent-color: rgb(255, 95, 95);
+}
+#list option {
+  background-color: #ffffff; /* Tick mark color */
+  height: 2px; /* Tick mark height */
+}
+.dropdown-menu{
+  background-color: rgb(25, 25, 25);
+}
+.dropdown-item{
+  color: white;
+}
+.dropdown-item:hover{
+  background-color: rgb(62, 62, 62);
+  color: white;
+}
+.muscle-button{
+  font-size: 14px;
+  margin: 6px;
+  background-color:rgb(25, 25, 25);
+  border-style: solid;
+  border-color:rgb(62, 62, 62);
+  color: white;
+}
+.selected-muscle-button1{
+  font-size: 14px;
+  margin: 6px;
+  background-color:rgb(62, 62, 62);
+  border-style: solid;
+  border-color:rgb(62, 62, 62);
+  color: white;
+}
+.selected-muscle-button2{
+  font-size: 14px;
+  margin: 6px;
+  background-color:rgb(255, 95, 95);
+  border-style: solid;
+  border-color: rgb(255, 95, 95);
+  color: white;
+}
+.muscle-button-container{
+  margin-top: 10px;
+}
+.bias-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.bias-header{
+  display: block;
+}
+.bias-labels{
+  font-size: 14px;
+  margin-top: 0px;
+}
+.left-bias-label{
+  margin-top: -16px;
+  margin-bottom: 8px;
+  text-align: left;
+  float: left;
+  display: inline-block;
+}
+.right-bias-label{
+  margin-top: -14px;
+  margin-bottom: 8px;
+  text-align: right;
+  float: right;
+  display: inline-block;
+}
+.sub-header{
+  font-size: 14px;
+}
+#sets-text{
+  display: inline-block;
+}
+.sets-button{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+.submit-button{
+  margin-top: 20px;
+  width: 100%;
+  background-color:rgb(255, 95, 95);
+  color: white;
+  line-height: 10px;
+  height: auto;
+}

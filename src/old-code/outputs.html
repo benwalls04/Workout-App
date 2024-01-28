@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="test-styles/outputs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Output test</title>
+  </head>
+  <body>
+    <div>
+      <div id="main-header">
+        <div class="btn-group" id="header-buttons" role="group" aria-label="Basic example">
+          <button type="button" class="header-button" id="last-button">&lt; Last</button>
+          <button type="button" class="header-button">Next &gt;</button>
+        </div>
+        <div id="routine-title">Push Pull Legs</div>
+      </div>
+      <div id="sub-header">
+        <div id="days-button-grid">
+          <Button class="btn btn-outline-danger day-button" id="select-day">M</Button>
+          <Button class="btn btn-outline-danger day-button">T</Button>
+          <Button class="btn btn-outline-danger day-button">W</Button>
+          <Button class="btn btn-outline-danger day-button">Th</Button>
+          <Button class="btn btn-outline-danger day-button">F</Button>
+          <Button class="btn btn-outline-danger day-button">S</Button>
+          <Button class="btn btn-outline-danger day-button">Su</Button>
+        </div>
+        <div id="workout-title-box">
+          <div id="workout-title">
+            Chest, Triceps, Shoulders
+          </div>
+        </div>
+      </div>
+      <div class="lift-container">
+        <div class="lift">Bench Press: </div>
+        <div class="sets">3</div>
+        <div class="x">x</div>
+        <div class="lower-rep">2</div>
+        <div class="rep-div">-</div>
+        <div class="upper-rep">6</div>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="lift-container">
+        <div class="lift">Military Press: </div>
+        <div class="sets">3</div>
+        <div class="x">x</div>
+        <div class="lower-rep">4</div>
+        <div class="rep-div">-</div>
+        <div class="upper-rep">8</div>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="lift-container">
+        <!-- Example single danger button -->
+        <div class="dropdown lift">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tricep Pushdown
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Overhead Tricep Extension</a>
+            <a class="dropdown-item" href="#">Dumbell Skullcrushers</a>
+            <a class="dropdown-item" href="#">Cross Cable Extensions</a>
+          </div>
+        </div>
+        <div class="sets">4</div>
+        <div class="x">x</div>
+        <div class="lower-rep">8</div>
+        <div class="rep-div">-</div>
+        <div class="upper-rep">12</div>
+        <button class="close-button">-</button>
+        <div class="expand-container">
+          <div class="sets-grid">
+            <div class="sets-grid-item">Set</div>
+            <div class="sets-grid-item">RPE</div>
+            <div class="sets-grid-item">Rest</div>
+            <div class="sets-grid-item">1</div>
+            <div class="sets-grid-item">9</div>
+            <div class="sets-grid-item">2:30</div>
+            <div class="sets-grid-item">2</div>
+            <div class="sets-grid-item">10</div>
+            <div class="sets-grid-item">3:00</div>
+            <div class="sets-grid-item">3</div>
+            <div class="sets-grid-item">10</div>
+            <div class="sets-grid-item">3:30</div>
+          </div>
+          <img class="image" src="test-styles/bench-press.jpg">
+        </div>
+        <ul class="expand-text">
+          <li>This is some instructions on how to do better skullcrushers</li>
+          <li>Take this advice</li>
+        </ul>
+      </div>
+      <div class="lift-container">
+        <div class="lift">Dumbell Lateral Raise: </div>
+        <div class="sets">3</div>
+        <div class="x">x</div>
+        <div class="lower-rep">8</div>
+        <div class="rep-div">-</div>
+        <div class="upper-rep">12</div>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="lift-container">
+        <div class="lift">Low-High Chest Fly: </div>
+        <div class="sets">4</div>
+        <div class="x">x</div>
+        <div class="lower-rep">8</div>
+        <div class="rep-div">-</div>
+        <div class="upper-rep">12</div>
+        <button class="expand-button">+</button>
+      </div>
+      <div class="save-container">
+        <button class="save">Select This Routine</button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
